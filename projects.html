@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Muhammad Bilal Irfan</title>
+  <meta name="description" content="Projects built by Muhammad Bilal Irfan — MasterwithAwais, FirmFox, and more." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">bilal<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="page-wrapper">
+    <section class="section">
+      <div class="container">
+
+        <!-- Header -->
+        <div class="section-header fade-in">
+          <span class="section-tag">// work</span>
+          <h1 class="section-title">Featured <span>Projects</span></h1>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: MasterwithAwais -->
+          <div class="project-card fade-in">
+            <div class="project-top">
+              <div class="project-icon">🎓</div>
+              <div class="project-links">
+                <a href="https://masterwithawais.com" target="_blank" class="project-link" title="Visit live site">
+                  <i class="ph-bold ph-arrow-square-out"></i>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <div class="project-name">MasterwithAwais</div>
+              <div class="project-url">masterwithawais.com</div>
+            </div>
+
+            <p style="font-size:0.82rem;color:var(--cyan);font-family:var(--font-mono);margin-bottom:0.25rem;">
+              Online Course &amp; E-Commerce Platform
+            </p>
+
+            <ul class="project-desc">
+              <li>Built the backend for an e-commerce learning platform — user authentication, course management, and content access control.</li>
+              <li>Integrated the Stripe payment gateway end-to-end, handling success, failure, and edge-case flows.</li>
+              <li>Designed and queried relational tables for user, course, and order data; tested and resolved defects before deployment.</li>
+            </ul>
+
+            <div class="tech-chips">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Django REST Framework</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">Stripe</span>
+              <span class="tech-chip">HTML/CSS</span>
+              <span class="tech-chip">Git</span>
+            </div>
+          </div>
+
+          <!-- Project 2: FirmFox -->
+          <div class="project-card fade-in">
+            <div class="project-top">
+              <div class="project-icon">⚖️</div>
+              <div class="project-links">
+                <a href="https://dev.firmfox.com" target="_blank" class="project-link" title="Visit live site">
+                  <i class="ph-bold ph-arrow-square-out"></i>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <div class="project-name">FirmFox</div>
+              <div class="project-url">dev.firmfox.com</div>
+            </div>
+
+            <p style="font-size:0.82rem;color:var(--cyan);font-family:var(--font-mono);margin-bottom:0.25rem;">
+              Legal Services Platform
+            </p>
+
+            <ul class="project-desc">
+              <li>Contributed to backend development for a legal services web platform — built and maintained REST API endpoints.</li>
+              <li>Implemented and validated LLM and RAG-based features, evaluating outputs for accuracy and reliability.</li>
+              <li>Collaborated with the team to troubleshoot issues, weigh technical trade-offs, and deliver features on schedule.</li>
+            </ul>
+
+            <div class="tech-chips">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Django REST Framework</span>
+              <span class="tech-chip">LangChain</span>
+              <span class="tech-chip">RAG</span>
+              <span class="tech-chip">LLMs</span>
+              <span class="tech-chip">PostgreSQL</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="fade-in" style="margin-top:3rem;text-align:center;">
+          <p style="color:var(--text-muted);font-size:0.9rem;margin-bottom:1.25rem;">
+            Interested in working together or seeing more of my work?
+          </p>
+          <a href="contact.html" class="btn btn-primary">
+            <i class="ph-bold ph-envelope"></i> Get In Touch
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>Built with <span>♥</span> by Muhammad Bilal Irfan &nbsp;|&nbsp; <span>bilal.dev</span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

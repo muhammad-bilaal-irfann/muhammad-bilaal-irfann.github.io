@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Muhammad Bilal Irfan</title>
+  <meta name="description" content="Get in touch with Muhammad Bilal Irfan — email, phone, and contact form." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">bilal<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="page-wrapper">
+    <section class="section">
+      <div class="container">
+
+        <!-- Header -->
+        <div class="section-header fade-in">
+          <span class="section-tag">// contact</span>
+          <h1 class="section-title">Get In <span>Touch</span></h1>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Left: Contact Info -->
+          <div class="fade-in">
+            <div class="contact-info-title">Let's work together</div>
+            <p class="contact-info-desc">
+              I'm currently open to new opportunities — full-time roles, internships, and freelance
+              backend projects. Whether you have a question, a project idea, or just want to say hi,
+              feel free to reach out. I'll get back to you as soon as I can.
+            </p>
+
+            <div class="contact-items">
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="ph-bold ph-envelope"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="clabel">EMAIL</span>
+                  <a href="mailto:muhammadbil2004@gmail.com">muhammadbil2004@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="ph-bold ph-phone"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="clabel">PHONE / WHATSAPP</span>
+                  <a href="tel:+923213998957">+92 321 3998957</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="ph-bold ph-map-pin"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="clabel">LOCATION</span>
+                  <span>Lahore, Pakistan</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="ph-bold ph-github-logo"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="clabel">GITHUB</span>
+                  <a href="https://github.com/muhammadbilalirfan" target="_blank">github.com/muhammadbilalirfan</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="ph-bold ph-linkedin-logo"></i>
+                </div>
+                <div class="contact-item-text">
+                  <span class="clabel">LINKEDIN</span>
+                  <a href="https://linkedin.com/in/muhammadbilalirfan" target="_blank">linkedin.com/in/muhammadbilalirfan</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="fade-in">
+            <form class="contact-form" id="contactForm" novalidate>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="fname" placeholder="John" required />
+                </div>
+                <div class="form-group">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lname" placeholder="Doe" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Project Inquiry" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                <i class="ph-bold ph-paper-plane-tilt"></i> Send Message
+              </button>
+
+            </form>
+
+            <p style="font-size:0.78rem;color:var(--text-muted);margin-top:1rem;font-family:var(--font-mono);">
+              * Form demo — to activate real email delivery, connect&nbsp;
+              <a href="https://formspree.io" target="_blank" style="color:var(--cyan);">Formspree</a>
+              &nbsp;or&nbsp;
+              <a href="https://www.emailjs.com" target="_blank" style="color:var(--cyan);">EmailJS</a>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>Built with <span>♥</span> by Muhammad Bilal Irfan &nbsp;|&nbsp; <span>bilal.dev</span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
